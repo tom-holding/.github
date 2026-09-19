@@ -1,0 +1,43 @@
+name: Epic
+description: Create a larger piece of work that spans multiple tasks or repositories
+type: Epic
+
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the outcome this epic should achieve.
+      placeholder: Describe the goal of this epic...
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Describe what is included in this epic.
+      placeholder: |
+        - ...
+        - ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: success-criteria
+    attributes:
+      label: Success criteria
+      description: Describe what must be true for this epic to be considered complete.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add relevant architecture notes, dependencies, links, or other useful context.
+    validations:
+      required: false

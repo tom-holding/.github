@@ -1,0 +1,54 @@
+name: Project
+description: Create a broader goal or outcome that groups related epics
+type: Project
+
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the broader outcome this project should achieve.
+      placeholder: Describe the goal of this project...
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Describe what is included in this project and the areas of work it covers.
+      placeholder: |
+        - ...
+        - ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: success-criteria
+    attributes:
+      label: Success criteria
+      description: Describe the measurable outcomes or conditions that must be true for this project to be considered complete.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: epics
+    attributes:
+      label: Epics
+      description: List or link the epics that contribute to this project.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add relevant background, dependencies, constraints, links, or other useful context.
+    validations:
+      required: false

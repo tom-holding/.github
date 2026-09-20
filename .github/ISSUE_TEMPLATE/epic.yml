@@ -1,6 +1,7 @@
 name: Epic
 description: Create a larger piece of work that spans multiple tasks or repositories
 type: Epic
+projects: ["tom-holding/1"]
 
 body:
   - type: textarea

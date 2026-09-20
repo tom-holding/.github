@@ -1,6 +1,7 @@
 name: Project
 description: Create a broader goal or outcome that groups related epics
 type: Project
+projects: ["tom-holding/1"]
 
 body:
   - type: textarea

@@ -1,6 +1,7 @@
 name: Task
 description: Create a piece of work that needs to be completed
 type: Task
+projects: ["tom-holding/1"]
 
 body:
   - type: textarea
